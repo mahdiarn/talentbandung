@@ -21,7 +21,30 @@ body {
     -webkit-animation: mymove2 1s infinite; /* Safari 4.0 - 8.0 */
     animation: mymove 1s infinite;
 }
+.nav {
+    margin:auto;
+    text-align:center;
+}
+.nav ul{
+    list-style-type: none;
+    display:inline-block;
+    margin:auto;
+    padding:0;
+}
 
+.nav li {
+    float:left;
+    border:1px solid #fff;
+    background-color:rgb(178, 252, 168);
+    padding-top:20px;
+    padding-bottom:20px;  
+    width:100px;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+}
 @-webkit-keyframes mymove {
     0% {transform: rotate(-90deg);background-color: #000}
     50% {transform: rotate(90deg);background-color: #FFF}
@@ -33,3 +56,4 @@ body {
     50% {transform: rotate(90deg);background-color: #FFF}
 	100% {transform: rotate(-90deg);background-color: #000}
 }
+
