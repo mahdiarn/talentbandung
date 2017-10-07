@@ -56,4 +56,3 @@ body {
     50% {transform: rotate(180deg);background-color: red;width: 300px;height:300px;}
     100% {transform: rotate(360deg);background-color: blue;width: 100px;height:100px;}
 }
-
