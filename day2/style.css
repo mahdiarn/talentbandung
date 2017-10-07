@@ -1,0 +1,15 @@
+.tabelnav table {
+    margin:auto;
+    width:600px;
+}
+.tabelnav table, .tabelnav table tr,  .tabelnav table tr td{
+    outline:1px solid #000;
+    outline-offset:-1px;
+}
+.tabelnav table tr td{
+    text-align: center;
+}
+
+body {
+    background-color: #cbdf71;
+}
