@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Just For Fun</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("ja");            
+            
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            
+            
+        }</script>
 </head>
 <body>
         <div class="nav">
@@ -22,11 +35,12 @@
             <br>
             <br>
             <p>Iseng aja, buat kotak kotak</p>
+            <button onclick="myFunction()" id="wagyu">Toggle square Visibility</button>
             <br>
             <br>
             <br>
             <br>
-            <div class="square"><p style="visibility:hidden"></div>
+            <div class="square" id="ja"><p style="visibility:hidden"></div>
         </center>
 </body>
 </html>
