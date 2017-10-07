@@ -9,11 +9,17 @@
     <script>
         function myFunction() {
             var x = document.getElementById("ja");            
-            
+            var s = document.getElementById("wagyu");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
                 x.style.display = "none";
+            }
+
+            if (s.innerHTML == "Hide this annoying square") {
+                s.innerHTML = "Show this annoying square";
+            } else {
+                s.innerHTML = "Hide this annoying square";
             }
             
             
@@ -35,7 +41,7 @@
             <br>
             <br>
             <p>Iseng aja, buat kotak kotak</p>
-            <button onclick="myFunction()" id="wagyu">Toggle square Visibility</button>
+            <button onclick="myFunction()" id="wagyu">Hide this annoying square</button>
             <br>
             <br>
             <br>

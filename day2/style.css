@@ -46,14 +46,14 @@ body {
     text-decoration: none;
 }
 @-webkit-keyframes mymove {
-    0% {transform: rotate(-90deg);background-color: #000}
-    50% {transform: rotate(90deg);background-color: #FFF}
-	100% {transform: rotate(-90deg);background-color: #000}
+    0% {transform: rotate(0deg);background-color: white;width: 100px;height:100px;}
+    50% {transform: rotate(360deg);background-color: red;width: 300px;height:300px;}
+    100% {transform: rotate(360deg);background-color: blue;width: 100px;height:100px;}
 }
 
 @keyframes mymove {
-    0% {transform: rotate(-90deg);background-color: #000}
-    50% {transform: rotate(90deg);background-color: #FFF}
-	100% {transform: rotate(-90deg);background-color: #000}
+    0% {transform: rotate(0deg);background-color: white;width: 100px;height:100px;}
+    50% {transform: rotate(180deg);background-color: red;width: 300px;height:300px;}
+    100% {transform: rotate(360deg);background-color: blue;width: 100px;height:100px;}
 }
 
