@@ -73,6 +73,32 @@
             width:60%;
             color:black;
         }
+        .videobutton {
+            width:100px;
+            height:100px;
+            background-color: rgba(0,0,0,0);
+            border: 2px solid white;
+            border-radius: 50%;            
+            margin:auto;
+            display:block;
+        }
+        .playbutton {
+            width: 100px; 
+            height: 100; 
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;   
+            border-left:30px solid white; 
+        }
+        .video {
+            background-image: url("./img/video-bg.png");
+            height:550px;
+        }
+        .overlay2{
+            background: rgba(49, 29, 94, 0.8);
+            overflow: hidden;
+            height: 550px;
+            color:white;
+        }
     </style>
 </head>
 
@@ -119,6 +145,13 @@
         </div>        
     </center>
     </div>
+    <div class="video">
+        <div class="overlay2">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <button class="videobutton"><center><img src="./img/play.png" style="margin-left: 10px;"></center></button>
+            <center><h2>WATCH OUR STORY</h2></center>
+    </div>
+</div>
 </body>
 
 </html>
