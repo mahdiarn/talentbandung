@@ -1,0 +1,110 @@
+<<<<<<< HEAD
+.tabelnav table {
+    margin:auto;
+    width:600px;
+}
+.tabelnav table, .tabelnav table tr,  .tabelnav table tr td{
+    outline:1px solid #000;
+    outline-offset:-1px;
+}
+.tabelnav table tr td{
+    text-align: center;
+}
+
+body {
+    background-color: #cbdf71;
+}
+
+.square {
+    width:300px;
+    height:300px;
+    background-color: #000000;
+    -webkit-animation: mymove2 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
+}
+.nav {
+    margin:auto;
+    text-align:center;
+}
+.nav ul{
+    list-style-type: none;
+    display:inline-block;
+    margin:auto;
+    padding:0;
+}
+
+.nav li {
+    float:left;
+    border:1px solid #fff;
+    background-color:rgb(178, 252, 168);
+    padding-top:20px;
+    padding-bottom:20px;  
+    width:100px;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+}
+@-webkit-keyframes mymove {
+    0% {transform: rotate(0deg);background-color: white;width: 100px;height:100px;}
+    50% {transform: rotate(360deg);background-color: red;width: 300px;height:300px;}
+    100% {transform: rotate(360deg);background-color: blue;width: 100px;height:100px;}
+}
+
+@keyframes mymove {
+    0% {transform: rotate(0deg);background-color: white;width: 100px;height:100px;}
+    50% {transform: rotate(180deg);background-color: red;width: 300px;height:300px;}
+    100% {transform: rotate(360deg);background-color: blue;width: 100px;height:100px;}
+}
+=======
+body {
+    background: #f7f5f1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+a {
+    color: #c25245;
+}
+.logo {
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+h1 {
+    font-size: 30px;
+    color: green;
+}
+
+table {
+    background: white;
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid orange;
+}
+
+th {
+    border: 1px solid red;
+}
+hr {
+    clear: both;
+}
+img {
+    border-radius: 100%;
+}
+>>>>>>> upstream/master
