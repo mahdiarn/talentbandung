@@ -5,12 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 2</title>
+    <title>Day 3</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color:coral;
+            
+        }
+        .bulat {
+            background-color: #00e0d0;
+            border:1px solid white;
+            border-radius:50%;            
+            width:10px;
+            height:10px;
+            float:left;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .bulatkosong {
+            border:1px solid white;
+            border-radius:50%;            
+            width:10px;
+            height:10px;
+            float:left;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .center {
+            margin: auto;            
+            text-align: center;
+            color:white;
+        }
+        
+        .center hr {
+            width:5%;
+            border-color:#00e0d0;
+        }
+        .center p {
+            width:50%;
+        }
+        .button {
+            background-color: rgba(0,0,0,0);
+            color: #00e0d0;
+            border: 2px solid #00e0d0;
+            border-radius: 5px;
+            font-size: 1.2em;
+            padding : 10px 10px 10px 10px;
+            -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+            transition: background-color 0.5s;
+            margin:auto;
+            display:block;
+        }
+        .button:hover {
+            background-color: white;
+        }
+        .logo {
+            background-image:url(./img/logo.png);
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="logo">Wisata Bandung</h1>
+    <div class="header"><div class="overlay">
+    <div class="logo"><img src="./img/logo.png" style="visibility:hidden"></div>
     <ul>
         <li>
             <a href="index.html">Home</a>
@@ -28,11 +86,24 @@
             <a href="biodata.html">Biodata</a>
         </li>
     </ul>
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <div class="center">            
+            <h1>We Are Awesome Creative Agency</h1>
+            <hr>
+            <center><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p></center>            
+            <input type="button" class="button" value="LEARN MORE">
+            <br><br><br><br><br><br><br><br><br><br>
+            <center style="display:inline-block;"><div class="bulat"></div><div class="bulatkosong"></div><div class="bulatkosong"></div><div class="bulatkosong"></div></center>
+            
+    </div>
+    </div>
+</div>
     <hr>
 
     <p>Selamat datang di Wisata Bandung</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae pariatur ipsam nisi natus earum eligendi ut omnis obcaecati architecto excepturi, autem modi quis deleniti fugit voluptatum, animi, doloribus sequi.</p>
-
+    
 </body>
 
 </html>
