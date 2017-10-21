@@ -1,0 +1,25 @@
+body{
+	color : black;
+	background-color:white;
+}
+
+.textinput {
+	background-color:white;
+	background-color:rgba(0,0,0,0);
+	border-color:black;
+	border-radius:25px;
+	border-width:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.searchbutton {
+	margin-top: 20px;
+	background-color:mediumspringgreen;
+	border-color:mediumspringgreen;
+	border-radius:25px;
+	border-width:5px;
+	color:mintcream;
+	padding: 5px 30px 5px 30px;
+	font-size: 2em;
+}
