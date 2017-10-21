@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)https://getbootstrap.com/docs/4.0/examples/cover/# -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/favicon.ico">
@@ -10,57 +10,148 @@
     <title>Day 4</title>
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/cover.css" rel="stylesheet">
-	  <link href="./css/style.css" rel="stylesheet">
-	
+    <link href="./css/style.css" rel="stylesheet">	
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-
   <body>
+    <div class="jumbotron jumbotron-fluid" id="jumbo1">
+      <div  id="jumbo1overlay">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="nav1">
+            <img class="navbar-brand" src="./img/tajam-logo.png">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars1" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>             
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Day 4</h3>              
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbars1">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>                            
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About </a>
+                </li>                            
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Expertise </a>
+                </li>                      
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Teams </a>
+                </li>                                  
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Works </a>
+                </li>                            
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">people say </a>
+                </li>                            
+              </ul>
             </div>
-          </header>
-
-          <main role="main" class="inner cover">
-            <h1 class="cover-heading" id="coverhead1">Selamat datang.</h1>
-            <p class="lead" id="coverpar1">Silahkan gunakan search box untuk mencari sesuatu</p>
-            <p class="lead">
-			<form>
-              <input type="text" class ="textinput" id="input1" onkeyup="showResult(this.value)"><br>
-              <div id="predictionSearch"></div>
-              <!--<input type="button" class = "searchbutton" id="button1" value="Cari">-->
-			  </form>
-            </p>
-          </main>
-
-          <footer class="mastfoot">
-            <div class="inner">
-              
-            </div>
-          </footer>
-
+          </nav>
+          <div class="container" align="center" id="jumbotron1container1">                      
+          </div>
         </div>
-
+        <div class="col-2"></div>
+      </div>      
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="new_html_code"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="new_html_code"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="new_html_code"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>     
+    </div>     
+    
+    <div class="jumbotron jumbotron-fluid" id="jumbo2">
+      <div class="container">
+      <div class="row">
+        <div class="col-2"></div>
+          <div class="col-3"><img src="./img/logo-color.png" id="jumbo2logo"></div>
+          <div class="col-5">
+            <h2 class="playfair bold text-oldgray">Our Story</h2>
+            <br>
+            <p class="lead roboto text-12 text-gray">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+            <p class="lead roboto text-12 text-gray">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <br>
+            <button type="button" class="btn btn-outline-tajam bold">LEARN MORE</button>
+          </div>
+        <div class="col-2"></div>
       </div>
-
+      </div>
+    </div>         
+    <div class="jumbotron jumbotron-fluid" id="jumbo3">
+      <div class="container" align="center">
+        <button class="videobutton"><center><img src="./img/play.png" style="margin-left: 10px;"></center></button>
+        <h4>WATCH OUR STORY</h4>
+      </div>
+        
     </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="./js/jquery-3.2.1.min.js" ></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/predictiveSearch.js"></script>
-
-</body></html>
+    <script>
+      $(document).ready(function() {
+        $('.carousel').carousel();
+            $("#button1").on("click", function(){
+              // Only change code below this line.
+              $.getJSON("./json/taman.json", function(json) {
+                var html = "";
+              // Only change code below this line.
+        
+              json.forEach(function(val) {
+                var keys = Object.keys(val);
+                html += "<div class = 'cat'>";
+                keys.forEach(function(key) {
+                  html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
+                });
+                html += "</div><br>";
+              });
+              
+              
+              // Only change code above this line.
+              $('.predictionSearch').html(html);
+              });
+            });        
+          });
+    </script>
+</body>
+</html>
